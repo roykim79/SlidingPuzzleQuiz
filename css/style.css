@@ -33,24 +33,24 @@ figcaption {
 
 @media (max-device-width: 500px) {
 	figure.SlidingPuzzleFigure {
-		margin-left: 20px;
+		margin-left: 37px;
 	}
 	ul.SlidingPuzzle {
 		display: table;
 		margin-bottom: 10px;
-		margin-top: 45px;
-		padding: 15px;
-		width: 306px;
+		margin-top: 34px;
+		padding: 12px;
+		width: 231px;
 	}
 	li.Tile {
-		border: 9px outset #ccc;
-		font-size: 42px;
-		height: 84px;
-		line-height: 84px;
-		width: 84px;
+		border: 7px outset #ccc;
+		font-size: 32px;
+		height: 63px;
+		line-height: 63px;
+		width: 63px;
 	}
 	figcaption {
-		font-size: 30px;
-		margin-left: 30px;
+		font-size: 22px;
+		margin-left: 22px;
 	}
 }
