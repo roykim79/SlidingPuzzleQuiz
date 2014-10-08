@@ -28,3 +28,10 @@ figcaption {
 	font-style: italic;
 	margin-left: 30px;
 }
+
+@media (max-device-width: 500px) {
+	body {
+		color: red;
+	}
+
+}
