@@ -8,6 +8,8 @@ ul.SlidingPuzzle {
 	background: #000;
 	border-radius: 5px;
 	display: table;
+	margin-bottom: 10px;
+	margin-top: 30px;
 	padding: 10px;
 	width: 204px;
 }
@@ -30,8 +32,25 @@ figcaption {
 }
 
 @media (max-device-width: 500px) {
-	body {
-		color: red;
-	}
+	figure.SlidingPuzzleFigure {
 
+	}
+	ul.SlidingPuzzle {
+		display: table;
+		margin-bottom: 10px;
+		margin-top: 45px;
+		padding: 15px;
+		width: 306px;
+	}
+	li.Tile {
+		border: 9px outset #ccc;
+		font-size: 42px;
+		height: 84px;
+		line-height: 84px;
+		width: 84px;
+	}
+	figcaption {
+		font-size: 30px;
+		margin-left: 30px;
+	}
 }
