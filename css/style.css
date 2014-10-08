@@ -33,7 +33,7 @@ figcaption {
 
 @media (max-device-width: 500px) {
 	figure.SlidingPuzzleFigure {
-
+		margin-left: 20px;
 	}
 	ul.SlidingPuzzle {
 		display: table;
