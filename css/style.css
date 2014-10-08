@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+}
+figure.SlidingPuzzleFigure {
+
+}
+ul.SlidingPuzzle {
+	background: #000;
+	border-radius: 5px;
+	display: table;
+	padding: 10px;
+	width: 204px;
+}
+li.Tile {
+	background: #fff;
+	border: 6px outset #ccc;
+	list-style: none;
+	float: left;
+	font-size: 36px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	width: 56px;
+}
+figcaption {
+	clear: both;
+	font-size: 18px;
+	font-style: italic;
+	margin-left: 30px;
+}
